@@ -329,9 +329,9 @@ progress::-webkit-progress-value {
 
 /*Login background*/
 #loginPage {
-    background-image: url('/Branding/Splashscreen?format=jpg&foregroundLayer=0.15') !important;
-    background-position: center ;
-    background-size: cover !important;
+  background: url(/Branding/Splashscreen?format=jpg&foregroundLayer=0.15) !important; 
+  background-size: cover !important;
+}
 
 /*Make watched icon, footer on chapter thumbnails (and other things), and count indicator dark and transparent*/
 .innerCardFooter,
@@ -752,7 +752,7 @@ progress::-webkit-progress-value {
     margin-bottom: 1.2em !important;
 }
 #loginPage {
-  background: url(https://i.imgur.com/3JRhFzi.jpeg) !important; 
+  background: url(/Branding/Splashscreen?format=jpg&foregroundLayer=0.15) !important; 
   background-size: cover !important;
 }
 
@@ -1765,7 +1765,7 @@ progress::-webkit-progress-value {
 }
 
 /*Style backdrop*/
-.backdropImage {filter: blur(0px) saturate(120%) contrast(130%) brightness(100%);}
+.backdropImage {filter: blur(5px) saturate(130%) contrast(130%) brightness(100%);}
 
 
 /* Center the listItem content */
